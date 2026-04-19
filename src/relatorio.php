@@ -13,7 +13,7 @@ $mensagens = [
 
 include_once 'header.php';
 ?>
-
+<link rel='stylesheet' href="relatorio.css">
 <h1>Relatório de Estoque</h1>
 
 <?php if ($status && isset($mensagens[$status])): ?>
@@ -22,7 +22,7 @@ include_once 'header.php';
     </div>
 <?php endif; ?>
 
-<table border="1" width="100%" cellpadding="10" style="border-collapse: collapse;">
+<table width="100%" cellpadding="10";>
     <tr>
         <th>ID</th><th>Nome</th><th>Preço</th><th>Ações</th>
     </tr>

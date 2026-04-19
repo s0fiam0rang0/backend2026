@@ -1,0 +1,25 @@
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background: linear-gradient(to bottom right, purple, rgb(228, 137, 228));
+    border-radius: 25px;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(223, 143, 223);
+}
+
+table {
+    border-radius: 10px;
+}
+
+tr th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: purple;
+}
+
+tr td {
+    background-color: rgb(223, 223, 223);
+}
