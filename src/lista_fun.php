@@ -1,6 +1,6 @@
 <?php
 require_once 'conecta.php';
-include_once 'header.php';
+
 
 $funcionarios = $pdo->query("SELECT * FROM funcionarios ORDER BY nome")->fetchAll(PDO::FETCH_ASSOC);
 ?>

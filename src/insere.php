@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 include_once 'header.php';
 ?>
-<h2>Cadastrar Bebida</h2>
+<h2>Cadastrar Mercadoria</h2>
 
 
 <link rel='stylesheet' href="insere.css">

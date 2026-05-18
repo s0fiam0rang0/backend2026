@@ -1,4 +1,4 @@
-<?php include_once 'header.php'; ?>
+<?php require_once 'conecta.php'; ?>
 <link rel='stylesheet' href="insere.css">
 
 <h2>Cadastrar Funcionário</h2>

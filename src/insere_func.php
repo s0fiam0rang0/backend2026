@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_POST['cargo'],
             $_POST['telefone']
         ]);
-        header("Location: lista_func.php?msg=sucesso");
+        header("Location: lista_fun.php?msg=sucesso");
         exit;
     } catch (Exception $e) {
         header("Location: cadastro_func.php?msg=erro");
