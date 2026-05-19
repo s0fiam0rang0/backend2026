@@ -12,9 +12,12 @@
     }
 }
 ?>
+<link rel="stylesheet" href="cadastro.css">
+<div class="cadastro-container">
 <h2>Cadastrar Funcionário</h2>
 <form method="POST">
     <input type="text" name="EMAIL" placeholder="EMAIL" required><br><br>
     <input type="password" name="SENHA" placeholder="SENHA" required><br><br>
     <div class= 'salvar'><button type="submit">Cadastrar</button></div>
 </form>
+</div>
