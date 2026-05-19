@@ -14,6 +14,9 @@
     <input type="text" id="login" name="login" placeholder="Nome:" required><br><br>
     <input type="password" id="senha" name="senha" placeholder="Senha:" required><br><br>
     <div class="entrar"><input type="submit" value="Entrar"></div><br><br>
+    <div class="cadastro-link">
+    <a href="cadastro.php">Cadastrar Funcionário</a>
+</div>
 </form>
 </body>
 </html>
